@@ -11,59 +11,51 @@
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/d00f9d52fa.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/index.js"></script>
     
-    <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,200;0,400;0,600;1,600&display=swap');
-      body  {
-        background: black;
-        font-family: 'Ysabeau','sans-serif';
-        margin:0;
-        color: white;
-      }
-      /* the main container that holds the whole app*/
-      .main {
-        width: 100%;
-        height: 100vh;
-        background: #383737;
-        box-sizing: border-box;
-        animation-name: shadow;
-        animation-duration: 10.8s;
-        animation-iteration-count: infinite;
-      }
-      @keyframes shadow {
-        from {
-           box-shadow: 0 0 0px rgb(0,0,0);
-        }
-        80% {
-           box-shadow: 0 0 100px #5B5B5B;
-        }
-        90% {
-           box-shadow: 0 0 500px #5B5B5B;
-        }
-        to {
-           box-shadow: 0 0 0px #5B5B5B;
-        }
-      }
-      /* Container ti hold img */
-      .container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-      }
-      .container img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
-      }
-      /* the container for the contents */
-      .container-content {
-        position: absolute;
-        top: 0;
-        left: 0;
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+    
+    <main class="main">
+      
+      <div class="container">
+        <img src="images/background.jpg">
+        
+        <div class="container-content">
+          
+          <div class="headings sections">
+            <div class="navbar">
+              <a href="#works">Works</a>
+              <a href="#">-----</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="heading" id="heading">
+              <div>I am Ahnaf</div>
+              <div>A<span id="heading-span-one">web</span><span id="heading-span-two">designer</span></div>
+              <div>from <span id="heading-span-three">Bangladesh</span></div>
+            </div>
+            <div class="headings-about-link">
+              <a href="#about">About</a>
+              </br>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+          
+          <div class="about sections" id="about">
+            <div class="about-para">
+              Building up...
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </main>
+    
+  </body>
+</html>: 0;
         right: 0;
         bottom: 0;
         overflow: scroll;
@@ -232,6 +224,13 @@
     
     <script type="text/javascript">
     $(document).ready(() => {
+      
+    })
+    </script>
+    
+  </body>
+</html>
+ment).ready(() => {
       
     })
     </script>
